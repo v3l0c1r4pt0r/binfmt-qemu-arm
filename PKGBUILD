@@ -8,7 +8,7 @@ url="http://www.freedesktop.org/software/systemd/man/binfmt.d.html"
 license=('GPL')
 optdepends=('qemu-user')
 source=("qemu.conf")
-md5sums=('9f757fd19c31e5dbe539a6381129cb81')
+md5sums=('33d994fc2569b7f92b38fa935fcd6edf')
 
 package() {
   install -Dm 644 "$srcdir/qemu.conf" "$pkgdir/usr/lib/binfmt.d/qemu.conf"
